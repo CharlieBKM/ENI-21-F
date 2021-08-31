@@ -10,7 +10,7 @@ def Navbar():
              dbc.DropdownMenu(
              children=[
                 dbc.DropdownMenuItem("2021", header=True, style={'fontSize':15,'color':'#13322B', 'textAlign':'center', 'font-weight': 'bold'}),
-                dbc.DropdownMenuItem("2020", href="#", style={'fontSize':15,'color':'#13322B', 'textAlign':'center'}),
+                dbc.DropdownMenuItem("2020", href="https://cie-encal20.herokuapp.com/res", style={'fontSize':15,'color':'#13322B', 'textAlign':'center'}),
                 dbc.DropdownMenuItem("2019", href="#", style={'fontSize':15,'color':'#13322B', 'textAlign':'center'}),
             ],
             nav=True,
