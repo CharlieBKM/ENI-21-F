@@ -32,7 +32,7 @@ container = dbc.Container([
 @app.callback(Output('page-content', 'children'),
             [Input('url', 'pathname')])
 def display_page(pathname):
-#    if pathname == '/':
+    if pathname == 'https://sps-cie-imss.herokuapp.com/':
 #        return html.Div([
 #        html.Iframe(src='assets/SP.html', width='100%', height='1400', 
 #                style={'border':'none'},
